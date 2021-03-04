@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+    <section class="help-info">
+        <h1>Work To-Dos</h1>
+        <p class="add-info">Enter tasks in the input field to add items to your list</p>
+        <p class="complete-info">Click the task to mark it as complete</p>
+        <p class="remove-info">Click the "X" to remove the item from your list</p>
+    </section>
+    <section class="input">
+        <input type="text" placeholder="New task" maxlength="27" id="newTask">
+        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+    </section>
+    <section>
+        <article>
+            <ul id="list"></ul>
+        </article>
+    </section>
+    
+
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
