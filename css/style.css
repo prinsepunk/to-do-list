@@ -15,14 +15,14 @@ body{
 }
 
 .help-info{
-    width: 60%;
+    width: 90%;
 }
 
 h1{
     color: #ffffff;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    font-size: 4em;
+    font-size: 2.5em;
     margin-top: 10%;
     margin-bottom: 2%;
 }
@@ -58,7 +58,6 @@ h1{
     font-size: 1em;
     border-radius: 5px;
     border: none;
-    min-width: 400px;
     cursor: pointer;
 }
 
@@ -99,7 +98,7 @@ li {
 	border-radius: 5px;
 	margin-bottom: 10px;
     background:#F25E8D;
-    min-width: 445px;
+    min-width: 200px;
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -119,4 +118,28 @@ li > button {
     color: #ffffff;
     font-size: 1em;
 	font-weight: 800;
+}
+
+
+
+@media(min-width: 500px){
+    .help-info{
+        width: 60%;
+    }
+
+    #newTask{
+        min-width: 400px;
+    }
+    
+    li{
+        min-width: 445px;
+    }
+
+    h1{
+        font-size: 4em;
+    }
+}
+
+@media(min-width: 700px){
+    
 }
