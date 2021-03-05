@@ -117,7 +117,8 @@ li > button {
 	float: right;
     color: #ffffff;
     font-size: 1em;
-	font-weight: 800;
+    font-weight: 800;
+    margin-left: 10px;
 }
 
 
